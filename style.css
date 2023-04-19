@@ -1,0 +1,88 @@
+* {
+  background-color: rgb(251, 249, 215);
+}
+
+
+/* stilizacija h1 elementa */
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #c1c0c5, #414043);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+ 
+  
+}
+
+/* stilizacija form elementa */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+/* stilizacija label elementa */
+label {
+  margin-right: 10px;
+  font-style: oblique;
+}
+
+/* stilizacija input elementa */
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  font-size: 1rem;
+  flex: 1;
+}
+
+/* stilizacija button elementa */
+button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* stilizacija ul elementa */
+ul {
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+}
+
+/* stilizacija li elementa */
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* stilizacija checkbox elementa */
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* stilizacija button za brisanje */
+li button {
+  background-color: #ff6961;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
